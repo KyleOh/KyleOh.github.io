@@ -3,7 +3,7 @@ title: "Atom에서 Markdown으로 블로그 포스팅하기"
 date:   2017-01-30 16:34:00 +0900
 layout: post
 ---
-Atom에서 Markdown으로 티스토리 포스팅하기
+Atom에서 Markdown으로 블로그 포스팅하기
 ===================================
 
 # Markdown이란?
