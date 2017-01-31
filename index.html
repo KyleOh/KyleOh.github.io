@@ -6,7 +6,7 @@ layout: default
   {% for post in site.posts %}
     <ul>
       <h3><small><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></small></h3>
-      <small>{{ post.date | date: "%Y-%m-%d" }}</small>
+      <div><small>{{ post.date | date: "%Y-%m-%d" }}</small></div>
     </ul>
   {% endfor %}
 </div>
