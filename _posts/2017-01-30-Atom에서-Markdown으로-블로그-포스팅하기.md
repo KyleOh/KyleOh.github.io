@@ -6,6 +6,9 @@ categories: blog
 tags: [mac, Programming]
 comments: true
 ---
+Atom에서 Markdown으로 블로그 포스팅하기
+===================================
+
 # Markdown이란?
 <pre><code>Markdown : 텍스트 기반의 마크업 언어로, 쉽게 사용할 수 있으며, HTML로 변환이 가능한 언어입니다 </code></pre>
 
