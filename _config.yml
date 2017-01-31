@@ -4,7 +4,8 @@ title: Wookii의 IT 생존일지
 description: 23살 욱이의 기술 블로그, 욱이의 IT 생존일지.
 logo: site-logo.png
 search: true
-url: "/blog"
+url: ""
+baseurl: ""
 
 # Jekyll configuration
 
