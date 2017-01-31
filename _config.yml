@@ -32,4 +32,4 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
-disqus_short_name: 'mykong'
+disqus_short_name: 'wookii'
