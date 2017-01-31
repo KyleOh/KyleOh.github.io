@@ -4,9 +4,12 @@ layout: default
 
 <div class="posts">
   {% for post in site.posts %}
-    <ul>
-      <h3><small><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></small></h3>
-      <div class="date"><small>{{ post.date | date: "%Y-%m-%d" }}</small></div>
-    </ul>
+    {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
+    {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
+      {% if month != nmonth %}
+        {% if forloop.index != 1 %}</ul>{% endif %}
+        <h3 class="sub-header">{{ post.date | date: '%B %Y' }}</h3><ul>
+      {% endif %}
+    <li><span class="time">{{ post.date | date: "%d/%m/%Y" }}</span><a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </div>
